@@ -19,15 +19,15 @@ const projectsData = [
         gitUrl: 'https://placeholder',
         deployUrl: 'https://placeholder',
     },
-    /*{
+    {
       id: 3,
       title: 'Quote Generator',
       description:
         'Using a public API, Quote Generator randomly selects and presents a new quote. The website features a minimalist and user-friendly design, allowing users to easily navigate and enjoy a moment of reflection',
-      image: 'https://placeholder',
+      image: '/images/projectsImg/portfolio.png',
       gitUrl: 'https://placeholder',
       deployUrl: 'https://placeholder',
-    },*/
+    },
 ];
 
 const ProjectsSection = () => {
