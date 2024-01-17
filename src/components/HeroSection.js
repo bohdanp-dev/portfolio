@@ -6,8 +6,8 @@ import {
     HERO_DOWNLOAD_CV,
     HERO_GRADIENT_TEXT,
     HERO_HIRE,
-} from "@/constants/textConsts";
-import {CV, LINKEDIN_LINK} from "@/constants/heroLinks";
+} from "@/utils/textConsts";
+import {CV, LINKEDIN_LINK} from "@/utils/heroLinks";
 
 const HeroSection = () => {
     return (

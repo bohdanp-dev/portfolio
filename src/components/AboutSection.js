@@ -10,7 +10,7 @@ import {
     ABOUT_SKILLS_TAB_TITLE,
     EDUCATION,
     SKILLS
-} from '@/constants/textConsts'
+} from '@/utils/textConsts'
 
 const cardVariants = {
     initial: { y: 50, opacity: 0 },
@@ -75,12 +75,12 @@ const AboutSection = () => {
 
     return (
         <section id="about" className="text-white pt-24 -mt-24">
-            <div className="md:grid md:grid-cols-2 gap-8 items-center px-4 py-2 xl:gap-16 sm:py-4 xl:px-16">
+            <div className="md:grid md:grid-cols-2 gap-8  px-4 py-2 xl:gap-16 sm:py-4 xl:px-16">
                 <Image
                     src={'/images/avatar.png'}
                     width={500}
                     height={500}
-                    alt="aboutImage"
+                    alt="about Image"
                     className="rounded-xl mx-auto"
                 />
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">

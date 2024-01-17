@@ -1,8 +1,8 @@
 'use client';
-import { socialMediaLinks } from "@/constants/socialMediaLinks"
+import { socialMediaLinks } from "@/utils/socialMediaLinks"
 import SocialMediaLink from "@/components/SocialMediaLink";
 import { TypeAnimation } from 'react-type-animation';
-import {CONTACT_TEXT_BIG, CONTACT_TEXT_GRADIENT} from "@/constants/textConsts";
+import {CONTACT_TEXT_BIG, CONTACT_TEXT_GRADIENT} from "@/utils/textConsts";
 
 const ContactSection = () => {
     return (

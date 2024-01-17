@@ -5,7 +5,7 @@ import NavLink from './NavLink';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import DropdownList from './DropdownList';
 import { AnimatePresence, motion } from 'framer-motion';
-import {HEADER_NAVLINK_ABOUT, HEADER_NAVLINK_CONTACT, HEADER_NAVLINK_PROJECTS} from "@/constants/textConsts";
+import {HEADER_NAVLINK_ABOUT, HEADER_NAVLINK_CONTACT, HEADER_NAVLINK_PROJECTS} from "@/utils/textConsts";
 
 
 const navLinks = [
