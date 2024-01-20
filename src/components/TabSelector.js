@@ -9,10 +9,10 @@ const variants = {
 
 //currently use it for showing and animating Skills and Education buttons.
 const TabSelector = ({ active, onSelectTab, children }) => {
-    const buttonColor = active ? 'text-white' : 'text-[#219ebc]';
+    const buttonColor = active ? 'text-[var(--text-color-primary)]' : 'text-[var(--text-color-secondary)]';
     return (
         <button onClick={onSelectTab}>
-            <p className={`mr-3 font-semibold hover:text-white ${buttonColor}`}>
+            <p className={`mr-3 font-semibold betterhover:hover:text-[var(--text-color-primary)] ${buttonColor}`}>
                 {children}
             </p>
             <motion.div

@@ -17,7 +17,7 @@ const ContactSection = () => {
           </span>
                 </h5>
 
-                <h5 className="text-2xl text-center font-semibold text-white my-2">
+                <h5 className="text-2xl text-center font-semibold text-[var(--text-color-primary)] my-2">
                     <TypeAnimation
                         sequence={[
                             'GitHub',
@@ -32,7 +32,7 @@ const ContactSection = () => {
                         repeat={Infinity}
                     />
                 </h5>
-                <p className="text-[#8ecae6] mb-4 text-xl max-w-2xl text-center ">
+                <p className="text-[var(--text-color-secondary)] mb-4 text-xl max-w-2xl text-center ">
                     {CONTACT_TEXT_BIG}
                 </p>
                 <div className="flex flex-row gap-3 justify-center">

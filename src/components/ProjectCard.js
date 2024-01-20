@@ -5,10 +5,10 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, deployUrl }) => {
     return (
         <div>
             <div
-                className="h-52 md:h-72 rounded-t-xl relative group border-2 border-t-white"
+                className="h-52 md:h-72 rounded-t-xl relative group border-2 border-[var(--text-color-primary)]"
                 style={{ background: `url(${imgUrl})`, backgroundSize: 'cover' }}
             >
-                <div className="overlay  items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80">
+                <div className="overlay rounded-t-xl  items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex betterhover:group-hover:bg-opacity-80">
                     <Link
                         href={gitUrl}
                         className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#e33211] hover:border-white group/link"
@@ -24,10 +24,10 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, deployUrl }) => {
                     </Link>
                 </div>
             </div>
-            <div className="text-white rounded-b-xl h-full mt-3 py-0.5 px-0.5 gradient-bg-to-br-1">
-                <div className="rounded-b-xl py-6 px-4 w-full bg-[#023047]">
+            <div className="text-[var(--text-color-primary)] rounded-b-xl h-full mt-3 py-0.5 px-0.5 gradient-bg-to-br-1">
+                <div className="rounded-b-xl py-6 px-4 w-full bg-[var(--background-color)]">
                     <h5 className="font-xl font-semibold mb-2">{title}</h5>
-                    <p style={{ minHeight: '120px' }} className="text-[#8ecae6]">
+                    <p style={{ minHeight: '120px' }} className="text-[var(--text-color-secondary)]">
                         {description}
                     </p>
                 </div>

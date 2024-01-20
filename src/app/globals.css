@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-color: #fafaf9;
+  --text-color-primary: #000000;
+  --text-color-secondary: #7a7280;
+  --header-border-color: #d9dada;
+  --button-color-hover: #bdc3c7;
 }
 
 .gradient-bg-to-r-1 {

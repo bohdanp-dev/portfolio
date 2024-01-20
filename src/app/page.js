@@ -8,7 +8,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 
 export default function Home() {
   return (
-      <main className="flex min-h-screen flex-col bg-black">
+      <main className="flex min-h-screen flex-col bg-[var(--background-color)]">
         <Header />
         <div className="container mt-20 mx-auto px-12 py-4">
           <HeroSection />

@@ -74,7 +74,7 @@ const AboutSection = () => {
     };
 
     return (
-        <section id="about" className="text-white pt-24 -mt-24">
+        <section id="about" className="text-[var(--text-color-primary)] pt-24 -mt-24">
             <div className="md:grid md:grid-cols-2 gap-8  px-4 py-2 xl:gap-16 sm:py-4 xl:px-16">
                 <Image
                     src={'/images/avatar.png'}
@@ -84,8 +84,8 @@ const AboutSection = () => {
                     className="rounded-xl mx-auto"
                 />
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-                    <h2 className="text-4xl font-bold text-white mb-4 ">{ABOUT_ABOUT_ME}</h2>
-                    <div className="text-[#8ecae6] lg:text-lg">
+                    <h2 className="text-4xl font-bold text-[var(--text-color-primary)] mb-4 ">{ABOUT_ABOUT_ME}</h2>
+                    <div className="text-[var(--text-color-primary)] lg:text-lg">
                         <ABOUT_ABOUT_ME_LONG />
                     </div>
                     <div className="flex flex-row justify-start mt-8">

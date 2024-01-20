@@ -15,7 +15,7 @@ const HeroSection = () => {
             <div
                 className=" flex flex-col items-center place-self-center text-center sm:text-left justify-self-start"
             >
-                <h1 className="text-white mb-4 text-4xl h-28 sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
+                <h1 className="text-[var(--text-color-primary)] mb-4 text-4xl h-28 sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
           <span className="text-transparent bg-clip-text gradient-bg-to-r-1">
               {HERO_GRADIENT_TEXT}
           </span>
@@ -34,7 +34,7 @@ const HeroSection = () => {
                         repeat={Infinity}
                     />
                 </h1>
-                <div className="text-[#8ecae6] text-center text-base sm:text-lg mb-6 lg:text-xl">
+                <div className="text-[var(--text-color-secondary)] text-center text-base sm:text-lg mb-6 lg:text-xl">
                     {HERO_ABOUT}
                 </div>
                 <div className="mb-10">
@@ -49,7 +49,7 @@ const HeroSection = () => {
                         }
                     >
                         <button className="px-0.5 py-0.5 w-full sm:w-fit rounded-full  gradient-bg-to-br-1 hover:bg-[#fb8500] text-white mt-3">
-              <span className="block bg-black hover:bg-[#023047] rounded-full px-5 py-2">
+              <span className="block bg-[var(--background-color)] text-[var(--text-color-primary)] betterhover:hover:bg-[var(--button-color-hover)] rounded-full px-5 py-2">
                 {HERO_DOWNLOAD_CV}
               </span>
                         </button>

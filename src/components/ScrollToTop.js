@@ -20,7 +20,7 @@ const ScrollToTop = () => {
             <Link
                 href="#top"
             >
-                <ArrowUpCircleIcon className="text-white"/>
+                <ArrowUpCircleIcon className="text-[var(--text-color-primary)]"/>
             </Link>
         </div>
     ) : null;

@@ -43,31 +43,31 @@ const Header = () => {
         <>
             <div id="top" className={"flex flex-col w-full fixed mx-auto top-0 left-0 right-0 z-10"}>
                 <div className={"h-1 w-full gradient-bg-to-r-1"}></div>
-                <nav className="border border-b-[#ffffff] border-l-transparent border-r-transparent border-t-transparent bg-black bg-opacity-100">
+                <nav className="border border-b-[var(--header-border-color)] border-l-transparent border-r-transparent border-t-transparent bg-[var(--background-color)] bg-opacity-100">
                     <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
                         <Link
                             href={'#top'}
-                            className="text-2xl md:text-5xl text-white font-semibold"
+                            className="text-2xl md:text-5xl font-semibold"
                         >
                             <p className="text-4xl sm:text-3xl lg:text-4xl lg:leading-normal font-extrabold">
-                  <span className="text-white bg-clip-text gradient-bg-to-r-1">
-                    B. P.
-                  </span>
+                          <span className="text-[var(--text-color-primary)] bg-clip-text gradient-bg-to-r-1">
+                            B. P.
+                          </span>
                             </p>
                         </Link>
                         {/* Mobile Menu button (md- devices)*/}
-                        <div className="mobile-menu block md:hidden">
+                        <div className="block md:hidden">
                             {!isNavbarOpen ? (
                                 <button
                                     onClick={() => setIsNavbarOpen(true)}
-                                    className="flex items-center px-3 py-2 border rounded border-slate-200  text-slate-200 hover:text-white hover:border-white"
+                                    className="flex items-center px-3 py-2 border rounded border-slate-200  text-[var(--text-color-secondary)] betterhover:hover:text-[var(--text-color-primary)] betterhover:hover:border-[var(--text-color-primary)]"
                                 >
                                     <Bars3Icon className="h-5 w-5" />
                                 </button>
                             ) : (
                                 <button
                                     onClick={() => setIsNavbarOpen(false)}
-                                    className="flex items-center px-3 py-2 border rounded border-slate-200  text-slate-200 hover:text-white hover:border-white"
+                                    className="flex items-center px-3 py-2 border rounded   text-[var(--text-color-secondary)] betterhover:hover:text-[var(--text-color-primary)] betterhover:hover:border-[var(--text-color-primary)]"
                                 >
                                     <XMarkIcon className="h-5 w-5" />
                                 </button>
