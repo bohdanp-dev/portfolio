@@ -6,7 +6,7 @@ const projectsData = [
         id: 1,
         title: 'Pomodoro application',
         description:
-            ' Pomodoro Timer App, a simple yet effective tool designed to enhance focus and efficiency. As a training project, it features work and break modes with customizable timers, coupled with a basic to-do list.',
+            ' Pomodoro Timer App, a tool designed to enhance focus and efficiency. As a training project, it features work and break modes with customizable timers, coupled with a basic to-do list.',
         image: '/images/projectsImg/pomodoro.png',
         gitUrl: 'https://placeholder',
         deployUrl: 'https://placeholder',
@@ -24,7 +24,7 @@ const projectsData = [
       title: 'Quote Generator',
       description:
         'Using a public API, Quote Generator randomly selects and presents a new quote. The website features a minimalist and user-friendly design, allowing users to easily navigate and enjoy a moment of reflection',
-      image: '/images/projectsImg/portfolio.png',
+      image: '/images/projectsImg/quotes.png',
       gitUrl: 'https://placeholder',
       deployUrl: 'https://placeholder',
     },
