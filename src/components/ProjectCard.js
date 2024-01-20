@@ -11,6 +11,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, deployUrl }) => {
                 <div className="overlay rounded-t-xl  items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex betterhover:group-hover:bg-opacity-80">
                     <Link
                         href={gitUrl}
+                        target="_blank"
                         className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#e33211] hover:border-white group/link"
                     >
                         <CodeBracketIcon className="h-10 w-10 text-[#e33211]  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-white" />
@@ -18,6 +19,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, deployUrl }) => {
 
                     <Link
                         href={deployUrl}
+                        target="_blank"
                         className="h-14 w-14 border-2 relative rounded-full border-[#e33211] hover:border-white group/link"
                     >
                         <EyeIcon className="h-10 w-10 text-[#e33211]  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-white" />

@@ -53,3 +53,8 @@ export const ABOUT_ABOUT_ME_LONG = () =>{
         </>
     );
 }
+
+// ProjectsSection
+export const PROJECTS_POMODORO_DESCRIPTION = 'Pomodoro Timer App, a tool designed to enhance focus and efficiency. As a training project, it features work and break modes with customizable timers, coupled with a basic to-do list.'
+export const PROJECTS_PORTFOLIO_DESCRIPTION = 'A personal portfolio website showcasing my skills and projects. It serves as a hub for my work as a React developer, offering insights into my expertise in frontend technologies and project accomplishments.'
+export const PROJECTS_QUOTES_DESCRIPTION = 'Using a public API, Quote Generator randomly selects and presents a new quote. The website features a minimalist and user-friendly design, allowing users to easily navigate and enjoy a moment of reflection'

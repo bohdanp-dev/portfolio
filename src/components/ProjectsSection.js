@@ -1,20 +1,24 @@
 import ProjectCard from './ProjectCard';
+import {
+    PROJECTS_POMODORO_DESCRIPTION,
+    PROJECTS_PORTFOLIO_DESCRIPTION,
+    PROJECTS_QUOTES_DESCRIPTION
+} from "@/utils/textConsts";
 
 //change placeholders for data
 const projectsData = [
     {
         id: 1,
         title: 'Pomodoro application',
-        description:
-            ' Pomodoro Timer App, a tool designed to enhance focus and efficiency. As a training project, it features work and break modes with customizable timers, coupled with a basic to-do list.',
+        description: PROJECTS_POMODORO_DESCRIPTION,
         image: '/images/projectsImg/pomodoro.png',
-        gitUrl: 'https://placeholder',
-        deployUrl: 'https://placeholder',
+        gitUrl: 'https://github.com/bohdanp-dev/pomodorotracker',
+        deployUrl: 'https://pomodoro-bohdanp.vercel.app',
     },
     {
         id: 2,
         title: 'Personal Portfolio',
-        description: 'A personal portfolio website showcasing my skills and projects. It serves as a hub for my work as a React developer, offering insights into my expertise in frontend technologies and project accomplishments.',
+        description: PROJECTS_PORTFOLIO_DESCRIPTION,
         image: '/images/projectsImg/portfolio.png',
         gitUrl: 'https://placeholder',
         deployUrl: 'https://placeholder',
@@ -22,11 +26,10 @@ const projectsData = [
     {
       id: 3,
       title: 'Quote Generator',
-      description:
-        'Using a public API, Quote Generator randomly selects and presents a new quote. The website features a minimalist and user-friendly design, allowing users to easily navigate and enjoy a moment of reflection',
+      description: PROJECTS_QUOTES_DESCRIPTION,
       image: '/images/projectsImg/quotes.png',
-      gitUrl: 'https://placeholder',
-      deployUrl: 'https://placeholder',
+      gitUrl: 'https://github.com/bohdanp-dev/quote-generator',
+      deployUrl: 'https://quotes-bohdanp.vercel.app',
     },
 ];
 

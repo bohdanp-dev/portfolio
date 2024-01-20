@@ -6,10 +6,16 @@ const ThemeContext = createContext('light');
 export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({ children }) => {
-    const [theme, setTheme] = useState(''); // default theme
+    const [theme, setTheme] = useState(()=>{
+        return localStorage.getItem('theme') || 'light'
+    }); // default theme
 
     const toggleTheme = () => {
-        setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
+        setTheme((prevTheme) => {
+            const newTheme = prevTheme === 'light' ? 'dark' : 'light';
+            localStorage.setItem('theme', newTheme); // Save to localStorage
+            return newTheme;
+        });
     };
     const themeClass = theme==="light" ? "light-theme" : "dark-theme"
 
