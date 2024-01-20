@@ -2,7 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
 :root {
+  --background-color: #fafaf9;
+  --text-color-primary: #000000;
+  --text-color-secondary: #7a7280;
+  --header-border-color: #d9dada;
+  --button-color-hover: #bdc3c7;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #000000;
+    --text-color-primary: #ffffff;
+    --text-color-secondary: #8ecae6;
+    --header-border-color: #ffffff;
+    --button-color-hover: #023047;
+  }
+}
+*/
+
+.dark-theme {
+  --background-color: #000000;
+  --text-color-primary: #ffffff;
+  --text-color-secondary: #8ecae6;
+  --header-border-color: #ffffff;
+  --button-color-hover: #023047;
+}
+
+.light-theme {
   --background-color: #fafaf9;
   --text-color-primary: #000000;
   --text-color-secondary: #7a7280;
@@ -15,13 +42,6 @@
 }
 .gradient-bg-to-br-1 {
   @apply bg-gradient-to-br from-[#e33211] via-[#ea4ccc] to-[#1da1f2];
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
 }
 
 body {
