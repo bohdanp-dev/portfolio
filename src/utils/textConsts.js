@@ -27,8 +27,8 @@ export const HERO_DOWNLOAD_CV = "Download CV";
 export const HERO_GRADIENT_TEXT = "Hello, I'm "
 
 export const HERO_CAROUSEL_NAME= "Bohdan"
-export const HERO_CAROUSEL_WEB_DEVELOPER = "Web developer"
-export const HERO_CAROUSEL_FRONTEND_DEVELOPER = "Frontend developer"
+export const HERO_CAROUSEL_WEB_DEVELOPER = "a Web developer"
+export const HERO_CAROUSEL_FRONTEND_DEVELOPER = "a Frontend developer"
 
 //Header
 export const HEADER_NAVLINK_ABOUT = "About";
