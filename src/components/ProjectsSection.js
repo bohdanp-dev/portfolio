@@ -1,5 +1,6 @@
 import ProjectCard from './ProjectCard';
 import {
+    PROJECTS_BLOG_APP_DESCRIPTION,
     PROJECTS_POMODORO_DESCRIPTION,
     PROJECTS_PORTFOLIO_DESCRIPTION,
     PROJECTS_QUOTES_DESCRIPTION
@@ -30,6 +31,14 @@ const projectsData = [
       image: '/images/projectsImg/quotes.png',
       gitUrl: 'https://github.com/bohdanp-dev/quote-generator',
       deployUrl: 'https://quotes-bohdanp.vercel.app',
+    },
+    {
+        id: 4,
+        title: 'Blog application',
+        description: PROJECTS_BLOG_APP_DESCRIPTION,
+        image: '/images/projectsImg/blog.png',
+        gitUrl: 'https://github.com/bohdanp-dev',
+        deployUrl: 'https://github.com/bohdanp-dev',
     },
 ];
 
