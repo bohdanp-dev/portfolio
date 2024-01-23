@@ -6,7 +6,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, deployUrl }) => {
         <div>
             <div
                 className="h-52 md:h-72 rounded-t-xl relative group border-2 border-[var(--text-color-primary)]"
-                style={{ background: `url(${imgUrl})`, backgroundSize: 'cover' }}
+                style={{ background: `url(${imgUrl}) no-repeat center center`, backgroundSize: 'cover'  }}
             >
                 <div className="overlay rounded-t-xl  items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex betterhover:group-hover:bg-opacity-80">
                     <Link
