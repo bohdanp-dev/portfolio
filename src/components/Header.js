@@ -45,7 +45,7 @@ const Header = () => {
     return (
         <>
             <div id="top" className={"flex flex-col w-full fixed mx-auto top-0 left-0 right-0 z-10"}>
-                <d className={"h-1 w-full gradient-bg-to-r-1"}/>
+                <div className={"h-1 w-full gradient-bg-to-r-1"}/>
                     <nav className="border border-b-[var(--header-border-color)] border-l-transparent border-r-transparent border-t-transparent bg-[var(--background-color)] bg-opacity-100">
                         <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
                             <Link

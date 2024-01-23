@@ -7,13 +7,14 @@ export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({ children }) => {
     const [theme, setTheme] = useState(()=>{
-        return localStorage.getItem('theme') || 'light'
+       // return localStorage.getItem('theme') || 'light'
+        return 'light';
     }); // default theme
 
     const toggleTheme = () => {
         setTheme((prevTheme) => {
             const newTheme = prevTheme === 'light' ? 'dark' : 'light';
-            localStorage.setItem('theme', newTheme); // Save to localStorage
+            // localStorage.setItem('theme', newTheme); // Save to localStorage
             return newTheme;
         });
     };
