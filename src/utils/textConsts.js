@@ -3,6 +3,8 @@ import React from "react";
 export const SKILLS = [
     'JavaScript',
     'React',
+    'NextJS',
+    'Typescript',
     'Redux toolkit',
     'RTK query',
     'TailwindCSS',

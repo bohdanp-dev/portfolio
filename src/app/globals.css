@@ -40,8 +40,18 @@
 .gradient-bg-to-r-1 {
   @apply bg-gradient-to-r from-[#e33211] via-[#ea4ccc] to-[#1da1f2];
 }
+.gradient-bg-to-r-2 {
+  @apply bg-gradient-to-r from-[#1da1f2] via-[#ea4ccc] to-[#e33211];
+}
 .gradient-bg-to-br-1 {
   @apply bg-gradient-to-br from-[#e33211] via-[#ea4ccc] to-[#1da1f2];
+}
+
+@media (max-width: 767px) {
+  .mobile-hover-card {
+    display: flex !important; /* Override the 'hidden' class */
+    background-color: rgba(24,24,24,15%) !important; /* Apply the opacity you want */
+  }
 }
 
 body {

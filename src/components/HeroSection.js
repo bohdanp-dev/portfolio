@@ -8,8 +8,10 @@ import {
     HERO_HIRE,
 } from "@/utils/textConsts";
 import {CV, LINKEDIN_LINK} from "@/utils/heroLinks";
+import {motion} from 'framer-motion';
 
 const HeroSection = () => {
+
     return (
         <section className="lg:py-12 ">
             <div
@@ -39,20 +41,28 @@ const HeroSection = () => {
                 </div>
                 <div className="mb-10">
                     <a href={LINKEDIN_LINK} target={"_blank"}>
-                        <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 gradient-bg-to-br-1 text-black">
-                            {HERO_HIRE}
-                        </button>
+                            <motion.button
+                                className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 gradient-bg-to-br-1 font-bold text-black"
+                                whileHover={{ scale: 1.15 }}
+                                transition={{ duration: 0.15 }}
+                            >
+                                {HERO_HIRE}
+                            </motion.button>
                     </a>
                     <a
                         href={
                             CV
                         }
                     >
-                        <button className="px-0.5 py-0.5 w-full sm:w-fit rounded-full  gradient-bg-to-br-1 hover:bg-[#fb8500] text-white mt-3">
-              <span className="block bg-[var(--background-color)] text-[var(--text-color-primary)] betterhover:hover:bg-[var(--button-color-hover)] rounded-full px-5 py-2">
-                {HERO_DOWNLOAD_CV}
-              </span>
-                        </button>
+                        <motion.button
+                            className="px-0.5 py-0.5 w-full sm:w-fit rounded-full  gradient-bg-to-br-1 text-white mt-3"
+                            whileHover={{ scale: 1.15 }}
+                            transition={{ duration: 0.15 }}
+                        >
+                          <span className="block bg-[var(--background-color)] text-[var(--text-color-primary)] font-bold rounded-full px-5 py-2">
+                            {HERO_DOWNLOAD_CV}
+                          </span>
+                        </motion.button>
                     </a>
                 </div>
             </div>

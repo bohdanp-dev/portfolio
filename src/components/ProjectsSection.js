@@ -46,7 +46,7 @@ const ProjectsSection = () => {
 
     return (
         <section id='projects' className='pt-24 -mt-24'>
-            <h2 className="text-center text-4xl font-bold text-[var(--text-color-primary)] mt-4 mb-4">
+            <h2 className="text-center text-4xl font-bold text-[var(--text-color-primary)] mt-20 mb-12">
                 My Projects
             </h2>
             <ul className="grid md:grid-cols-3 gap-8 md:gap-12">
